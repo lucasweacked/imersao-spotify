@@ -171,8 +171,8 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(21,66,132);
-    background: linear-gradient(180deg, rgba(21,66,132,1) 39%, rgba(17,18,38,1) 100%);
+    background: rgb(21, 66, 132);
+    background: linear-gradient(94deg, rgba(21, 66, 132, 1) 30%, rgba(17, 18, 38, 1) 70%);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
