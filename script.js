@@ -32,3 +32,19 @@ document.addEventListener('input', function () {
     
     requestApi(searchTerm);
 })
+
+function atualizarSaudacao() {
+    const saudacao = document.getElementById('greeting');
+    const horaAtual = new Date().getHours();
+
+    if (horaAtual >= 5 && horaAtual < 12) {
+        saudacao.textContent = 'Bom dia!';
+    } else if (horaAtual >= 12 && horaAtual < 18) {
+        saudacao.textContent = 'Boa tarde!';
+    } else {
+        saudacao.textContent = 'Boa noite!';
+    }
+}
+
+// Chama a função assim que a página carrega
+atualizarSaudacao();
